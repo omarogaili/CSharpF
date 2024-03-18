@@ -13,8 +13,8 @@ namespace Shapes_Omarogaili
         private bool drawCircle = false;
         private bool drawTriangle = false;
         private Color selectTheColor = Color.Black;
-        private Stack<Shape> draw= new Stack<Shape>();
-        private Stack<Shape> redo= new Stack<Shape>();
+        private Stack<Shape> draw = new Stack<Shape>();
+        private Stack<Shape> redo = new Stack<Shape>();
 
 
         private void btn_Square_Click(object sender, EventArgs e)
@@ -58,10 +58,10 @@ namespace Shapes_Omarogaili
                     mouse.Location,
                     10
                     );
-                draw.Push( square );
+                draw.Push(square);
                 redo.Clear();
-                drawSquare= false;
-                
+                drawSquare = false;
+
             }
             else if (drawCircle)
             {
@@ -97,7 +97,7 @@ namespace Shapes_Omarogaili
          */
         private void picBox_Paint(object sender, PaintEventArgs e)
         {
-            foreach(var shape in draw)
+            foreach (var shape in draw)
             {
                 shape.Draw(e.Graphics);
             }
@@ -110,16 +110,16 @@ namespace Shapes_Omarogaili
          */
         private void btn_Refresh_Click(object sender, EventArgs e)
         {
-           
+
             draw.Clear();
             picBox.Refresh();
         }
 
         private void btn_Undo_Click(object sender, EventArgs e)
         {
-           if(draw.Count > 0)
+            if (draw.Count > 0)
             {
-                Shape undoneShape= draw.Pop();
+                Shape undoneShape = draw.Pop();
                 redo.Push(undoneShape);
             }
             picBox.Refresh();
@@ -134,6 +134,10 @@ namespace Shapes_Omarogaili
         private void SaveAsFile()
         {
             SaveFileDialog saveFile = new SaveFileDialog();
+            var jsonSerializerOptions = new JsonSerializerSettings()
+            {
+                TypeNameHandling = TypeNameHandling.All,
+            };
             saveFile.Filter = "Textfiler (*.txt)|*.txt";
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             saveFile.FileName = "ShapesData.txt";
@@ -145,7 +149,7 @@ namespace Shapes_Omarogaili
                 string filename = saveFile.FileName;
                 List<object> allObjects = new List<object>();
                 allObjects.AddRange(draw.Cast<object>());
-                string json = JsonConvert.SerializeObject(allObjects, Formatting.Indented);
+                string json = JsonConvert.SerializeObject(allObjects, Formatting.Indented, jsonSerializerOptions);
                 File.WriteAllText(filename, json);
 
                 MessageBox.Show("Data har sparats till filen.", "Sparad", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -197,5 +201,54 @@ namespace Shapes_Omarogaili
                 MessageBox.Show("Du måste välja hur vill du spara filen som?", "Osparad", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btn_Load_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text Files (*.txt)|*.txt";
+            openFileDialog.FilterIndex = 1;
+            var jsonSerializerOptions = new JsonSerializerSettings()
+            {
+                TypeNameHandling = TypeNameHandling.All,
+            };
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string filename = openFileDialog.FileName;
+
+                try
+                {
+                    string json = File.ReadAllText(filename);
+                    List<object> allObjects = JsonConvert.DeserializeObject<List<object>>(json, jsonSerializerOptions);
+
+                    // Clear existing drawings
+                    draw.Clear();
+                    foreach (var obj in allObjects)
+                    {
+                        if (obj is Square square)
+                        {
+                            draw.Push(square);
+                        }
+                        else if (obj is Circle circle)
+                        {
+                            draw.Push(circle);
+                        }
+                        else if (obj is Triangle triangle)
+                        {
+                            draw.Push(triangle);
+                        }
+                    }
+
+                    picBox.Refresh();
+
+                    MessageBox.Show("Filen har laddats.", "Laddad", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ett fel inträffade när filen lästes in: {ex.Message}", "Fel", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
-}
+    }
+

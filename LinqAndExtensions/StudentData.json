@@ -1,0 +1,302 @@
+[
+	{
+		"Student ID": "S1000",
+		"Student Name": "Cynthia Russell",
+		"Student Age": 18,
+		"Student Address": "15592 Richard Inlet, Davishaven, CT 97995",
+		"Student email": "tylersmith@thompson.com",
+		"Student points": 90,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S10001",
+		"Student Name": "Jennifer Garrison",
+		"Student Age": 22,
+		"Student Address": "40791 Floyd Freeway Apt. 205, New Brittanyburgh, GA 09052",
+		"Student email": "josephross@yahoo.com",
+		"Student points": 29,
+		"Course ID": "C31",
+		"Course Name": "Implement Extensible Networks"
+	},
+	{
+		"Student ID": "S1002",
+		"Student Name": "Randy Graham",
+		"Student Age": 18,
+		"Student Address": "165 Jaime Fields Suite 662, New Kathryn, SD 30243",
+		"Student email": "charles75@wilson-adams.info",
+		"Student points": 3,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1003",
+		"Student Name": "Chris Underwood",
+		"Student Age": 21,
+		"Student Address": "14959 Patel Burgs Suite 960, South Vanessa, SC 62518",
+		"Student email": "jenniferrandall@fisher.biz",
+		"Student points": 27,
+		"Course ID": "C210",
+		"Course Name": "Implement B2C Solutions"
+	},
+	{
+		"Student ID": "S1004",
+		"Student Name": "Kristi Thompson",
+		"Student Age": 21,
+		"Student Address": "449 Mark Terrace Suite 610, West Douglasbury, MT 20442",
+		"Student email": "kellyjohnson@rodgers.com",
+		"Student points": 19,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S1005",
+		"Student Name": "Rebecca Dyer",
+		"Student Age": 23,
+		"Student Address": "84604 Thompson Roads, Charlesshire, TX 56603",
+		"Student email": "anthony57@hotmail.com",
+		"Student points": 12,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1006",
+		"Student Name": "Jennifer Cortez",
+		"Student Age": 25,
+		"Student Address": "996 Pamela Crescent Suite 105, Knightburgh, IL 55478",
+		"Student email": "tburton@colon.org",
+		"Student points": 68,
+		"Course ID": "C206",
+		"Course Name": "Reinvent Killer Eyeballs"
+	},
+	{
+		"Student ID": "S1007",
+		"Student Name": "Charles Powell",
+		"Student Age": 19,
+		"Student Address": "30311 Dustin Loop Apt. 480, Port Joseph, VA 58669",
+		"Student email": "medinaemma@gmail.com",
+		"Student points": 60,
+		"Course ID": "C1105",
+		"Course Name": "Harness E-Business Bandwidth"
+	},
+	{
+		"Student ID": "S1003",
+		"Student Name": "Chris Underwood",
+		"Student Age": 21,
+		"Student Address": "14959 Patel Burgs Suite 960, South Vanessa, SC 62518",
+		"Student email": "jenniferrandall@fisher.biz",
+		"Student points": 65,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1009",
+		"Student Name": "Michael Meza",
+		"Student Age": 23,
+		"Student Address": "PSC 3677, Box 0641, APO AP 05070",
+		"Student email": "dawn69@jones.net",
+		"Student points": 3,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S1010",
+		"Student Name": "Gregory Wilson",
+		"Student Age": 22,
+		"Student Address": "9221 Katherine Falls, Lake Jeffrey, AK 10453",
+		"Student email": "michaelscott@smith.com",
+		"Student points": 56,
+		"Course ID": "C210",
+		"Course Name": "Implement B2C Solutions"
+	},
+	{
+		"Student ID": "S1011",
+		"Student Name": "Adam Padilla",
+		"Student Age": 24,
+		"Student Address": "457 Brooks Overpass, Port Jessicabury, MS 99811",
+		"Student email": "amandasmith@wright.com",
+		"Student points": 67,
+		"Course ID": "C211",
+		"Course Name": "Enable Collaborative Vortals"
+	},
+	{
+		"Student ID": "S1012",
+		"Student Name": "Samuel Rodriguez",
+		"Student Age": 22,
+		"Student Address": "42705 Bradley Forge, New Robertchester, WI 49287",
+		"Student email": "daniellelee@davis.com",
+		"Student points": 23,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1013",
+		"Student Name": "Robert Murray",
+		"Student Age": 25,
+		"Student Address": "62154 Sarah Islands, Lake Michael, FL 39701",
+		"Student email": "uwatson@jones.com",
+		"Student points": 95,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S1014",
+		"Student Name": "Doris Carpenter",
+		"Student Age": 20,
+		"Student Address": "98873 Jessica Ports, South Gregory, NV 52741",
+		"Student email": "heather26@yahoo.com",
+		"Student points": 42,
+		"Course ID": "C210",
+		"Course Name": "Implement B2C Solutions"
+	},
+	{
+		"Student ID": "S1015",
+		"Student Name": "Laura Meyers",
+		"Student Age": 23,
+		"Student Address": "5869 Mendoza Viaduct, Port Davidfort, PA 80598",
+		"Student email": "kingcameron@anderson.com",
+		"Student points": 11,
+		"Course ID": "C215",
+		"Course Name": "Seize Efficient Synergies"
+	},
+	{
+		"Student ID": "S1016",
+		"Student Name": "Robert Stevenson",
+		"Student Age": 23,
+		"Student Address": "9075 Jessica Forks, New Jeffrey, NE 26379",
+		"Student email": "wrightamanda@jones-davis.com",
+		"Student points": 59,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1017",
+		"Student Name": "Lisa Cooper",
+		"Student Age": 24,
+		"Student Address": "045 Daniel Road, Port Danielstad, MO 99123",
+		"Student email": "harrisnicole@gmail.com",
+		"Student points": 78,
+		"Course ID": "C217",
+		"Course Name": "Scale Web-Enabled Solutions"
+	},
+	{
+		"Student ID": "S1018",
+		"Student Name": "James Peterson",
+		"Student Age": 18,
+		"Student Address": "864 Steve Manors, Johnsonview, VT 66221",
+		"Student email": "karen58@hotmail.com",
+		"Student points": 92,
+		"Course ID": "C218",
+		"Course Name": "Optimize Compelling Action-Items"
+	},
+	{
+		"Student ID": "S1019",
+		"Student Name": "Paul Tucker",
+		"Student Age": 20,
+		"Student Address": "350 Laura Roads, Port Christopher, SD 70469",
+		"Student email": "ucole@williams.com",
+		"Student points": 38,
+		"Course ID": "C215",
+		"Course Name": "Seize Efficient Synergies"
+	},
+	{
+		"Student ID": "S1020",
+		"Student Name": "Stacy Greer",
+		"Student Age": 22,
+		"Student Address": "3062 Smith Via, North Christopherville, RI 36824",
+		"Student email": "monica67@woodard.info",
+		"Student points": 90,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1021",
+		"Student Name": "Kathryn Fields",
+		"Student Age": 23,
+		"Student Address": "4039 Kimberly Isle, Lake Jessicaview, MD 36519",
+		"Student email": "hahnbrian@martinez.com",
+		"Student points": 88,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S1022",
+		"Student Name": "Gabriel Austin",
+		"Student Age": 19,
+		"Student Address": "8336 Jennifer Cove Apt. 147, Port Patrick, VA 78513",
+		"Student email": "johnjones@gmail.com",
+		"Student points": 69,
+		"Course ID": "C222",
+		"Course Name": "Empower Cross-Media Technologies"
+	},
+	{
+		"Student ID": "S1023",
+		"Student Name": "Anthony Moore",
+		"Student Age": 23,
+		"Student Address": "590 Ashley Divide Suite 147, Lindatown, FL 09459",
+		"Student email": "codylucero@hotmail.com",
+		"Student points": 17,
+		"Course ID": "C215",
+		"Course Name": "Seize Efficient Synergies"
+	},
+	{
+		"Student ID": "S1027",
+		"Student Name": "John Morris",
+		"Student Age": 21,
+		"Student Address": "616 Anthony Rest Apt. 334, Jillianberg, VT 02230",
+		"Student email": "nguyenbrandon@hensley.com",
+		"Student points": 19,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S1025",
+		"Student Name": "Michael Chapman",
+		"Student Age": 18,
+		"Student Address": "4027 Williams Circle, Hayneshaven, AK 66843",
+		"Student email": "maria77@gmail.com",
+		"Student points": 70,
+		"Course ID": "C210",
+		"Course Name": "Implement B2C Solutions"
+	},
+	{
+		"Student ID": "S1014",
+		"Student Name": "Doris Carpenter",
+		"Student Age": 20,
+		"Student Address": "98873 Jessica Ports, South Gregory, NV 52741",
+		"Student email": "heather26@yahoo.com",
+		"Student points": 37,
+		"Course ID": "C202",
+		"Course Name": "Engage User-Centric Architectures"
+	},
+	{
+		"Student ID": "S1027",
+		"Student Name": "John Morris",
+		"Student Age": 21,
+		"Student Address": "616 Anthony Rest Apt. 334, Jillianberg, VT 02230",
+		"Student email": "nguyenbrandon@hensley.com",
+		"Student points": 41,
+		"Course ID": "C215",
+		"Course Name": "Seize Efficient Synergies"
+	},
+	{
+		"Student ID": "S128",
+		"Student Name": "Ashley Smith",
+		"Student Age": 19,
+		"Student Address": "69691 Sparks Spring Suite 378, Port Michaelshire, IN 52730",
+		"Student email": "bgeorge@johnson.com",
+		"Student points": 84,
+		"Course ID": "C228",
+		"Course Name": "Engineer Mission-Critical Partnerships"
+	},
+	{
+		"Student ID": "S1029",
+		"Student Name": "Tiffany Myers",
+		"Student Age": 19,
+		"Student Address": "111 Adrienne Ridge, Rileybury, SD 21503",
+		"Student email": "santanacarlos@hotmail.com",
+		"Student points": 100,
+		"Course ID": "C215",
+		"Course Name": "Seize Efficient Synergies"
+	}
+]

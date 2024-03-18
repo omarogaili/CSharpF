@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5hWC2oYym3Jtd+zDOgA+7grxZR0tpPi8ZTeF6513v1uMdrnt3DzdRqeYpJWTbZBumZCvogK7KhMaaiwoSX8LYg==",
+  "dgSpecHash": "hbnj/mUqWsUe/HF+a7uPuYJ0lakHxZEZDTGwz3fH+HaOLTYaRb+vreR9VEY3adyXOCnc/GlroOXq6b8VN/7Cig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Desktop\\GrundProgramering-Hög\\C#för_Lektioner\\C-djupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\Shapes_Omarogaili.csproj",
+  "projectFilePath": "C:\\Users\\ogail\\OneDrive\\Desktop\\Högskolan-grund programering\\C#Fördjupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\Shapes_Omarogaili.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\ogail\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

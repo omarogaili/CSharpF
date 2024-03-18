@@ -55,24 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ogail\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\GrundProgramering-Hög\\C#för_Lektioner\\C-djupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\Shapes_Omarogaili.csproj",
+      "projectUniqueName": "C:\\Users\\ogail\\OneDrive\\Desktop\\Högskolan-grund programering\\C#Fördjupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\Shapes_Omarogaili.csproj",
       "projectName": "Shapes_Omarogaili",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\GrundProgramering-Hög\\C#för_Lektioner\\C-djupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\Shapes_Omarogaili.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\GrundProgramering-Hög\\C#för_Lektioner\\C-djupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\obj\\",
+      "projectPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\Högskolan-grund programering\\C#Fördjupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\Shapes_Omarogaili.csproj",
+      "packagesPath": "C:\\Users\\ogail\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\Högskolan-grund programering\\C#Fördjupning\\Shapes_Omarogaili\\Shapes_Omarogaili\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ogail\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
