@@ -38,7 +38,6 @@
             btn_Save = new Button();
             saveAs_photo = new CheckBox();
             saveAs_file = new CheckBox();
-            button1 = new Button();
             btn_Load = new Button();
             ((System.ComponentModel.ISupportInitialize)picBox).BeginInit();
             SuspendLayout();
@@ -142,15 +141,6 @@
             saveAs_file.Text = "Fil";
             saveAs_file.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            button1.Location = new Point(0, 0);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 10;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // btn_Load
             // 
             btn_Load.Location = new Point(466, 745);
@@ -168,7 +158,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1036, 892);
             Controls.Add(btn_Load);
-            Controls.Add(button1);
             Controls.Add(saveAs_file);
             Controls.Add(saveAs_photo);
             Controls.Add(btn_Save);
@@ -198,7 +187,6 @@
         private Button btn_Save;
         private CheckBox saveAs_photo;
         private CheckBox saveAs_file;
-        private Button button1;
         private Button btn_Load;
     }
 }

@@ -55,8 +55,10 @@ namespace LinqAndExtensions
             //Räkna ut hur många enskilda kurser som finns.
             //Gruppera på kurs som tillvägagångssätt.
             //throw new NotImplementedException();
-            int totalCourses = roster.Students.Select(student => student.CourseName).Distinct().Count();
+            int totalCourses = roster.Students.Select(student => student.CourseID).Distinct().Count();
             return totalCourses;
+            //use the grupp by its for the best . 
+            //u can use .Count for grupp .
         }
 
         private static string CreateEnrollmentID(Student student)
@@ -67,14 +69,14 @@ namespace LinqAndExtensions
             //throw new NotImplementedException();
             //string enrollmentId = roster.Students.Select(student => student.StudentID);
             //return enrollmentId;
-            return StudentExtentions.EnrollmentId(student);
+            return student.EnrollmentId();
         }
 
         private static string CreateStudentSummary(Student student)
         {
             //Gör en extension (kalla den Summary) på Student som skriver ut
             //studentents namn, ålder, och epostadress.
-            return StudentExtentions.StudentSummary(student);
+            return student.StudentSummary();
         }
 
         private static IEnumerable<string> GetCourseList(List<Student> students)
@@ -84,14 +86,27 @@ namespace LinqAndExtensions
             //Exempel på sådan sammanfattning: "C201 - Implement Extensible Networks"
             //Listan ska vara sorterad efter ID.
             //throw new NotImplementedException();
-
+            var course = roster.Students.OrderBy(s => Convert.ToInt32(s.CourseID.Substring(1)))
+                .Select(student => $"{student.CourseID} - {student.CourseName}")
+                .Distinct();
+            return course;
         }
 
         private static IEnumerable<Student> GetTopStudents(List<Student> students)
         {
             //Plocka ut alla studenter med 90 poäng eller mer.
             //Sortera dom efter ID.
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            //var topStudents= students.Where(students=> students.StudentPoints >=90 )
+            //    .OrderBy(students => students.StudentID);
+            //return topStudents;
+         return  roster.Students.GroupBy(s => s.StudentID)
+                .OrderBy(g => Convert.ToInt32(g.First().StudentID.Substring(1)))
+                .Select(g => new { Value = g.First(), Points = g.Select(s => s.StudentPoints).Sum() })
+                .Where(s => s.Points >= 90)
+                .Select(s => s.Value);
+
+
         }
     }
 }

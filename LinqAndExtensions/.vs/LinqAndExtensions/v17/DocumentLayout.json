@@ -3,15 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|c:\\users\\ogail\\onedrive\\desktop\\h\u00F6gskolan-grund programering\\c#f\u00F6rdjupning\\linqandextensions\\linqandextensions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|solutionrelative:linqandextensions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|c:\\users\\ogail\\onedrive\\desktop\\h\u00F6gskolan-grund programering\\c#f\u00F6rdjupning\\linqandextensions\\linqandextensions\\studentextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\linqandextensions\\studentextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|solutionrelative:linqandextensions\\studentextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|c:\\users\\ogail\\onedrive\\desktop\\h\u00F6gskolan-grund programering\\c#f\u00F6rdjupning\\linqandextensions\\linqandextensions\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\linqandextensions\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64DA7889-5A26-43F2-AEB9-D50F52A7D9CB}|LinqAndExtensions\\LinqAndExtensions.csproj|solutionrelative:linqandextensions\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,43 +25,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\StudentExtentions.cs",
-              "RelativeDocumentMoniker": "LinqAndExtensions\\StudentExtentions.cs",
-              "ToolTip": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\StudentExtentions.cs",
-              "RelativeToolTip": "LinqAndExtensions\\StudentExtentions.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABlAAAA",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "ToolTip": "C:\\Users\\ogail\\OneDrive\\Desktop\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "RelativeToolTip": "..\\..\\..\\WorkC#\\DiaryApp\\DiaryDashBord\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T10:15:53.272Z",
+              "WhenOpened": "2024-03-20T07:50:00.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "StudentExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\StudentExtentions.cs",
+              "RelativeDocumentMoniker": "LinqAndExtensions\\StudentExtentions.cs",
+              "ToolTip": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\StudentExtentions.cs",
+              "RelativeToolTip": "LinqAndExtensions\\StudentExtentions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:15:53.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\Student.cs",
               "RelativeDocumentMoniker": "LinqAndExtensions\\Student.cs",
               "ToolTip": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\Student.cs",
               "RelativeToolTip": "LinqAndExtensions\\Student.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBsAAAAlAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T09:08:47.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T09:08:47.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\Program.cs",
               "RelativeDocumentMoniker": "LinqAndExtensions\\Program.cs",
               "ToolTip": "C:\\Users\\ogail\\OneDrive\\Desktop\\H\u00F6gskolan-grund programering\\C#F\u00F6rdjupning\\LinqAndExtensions\\LinqAndExtensions\\Program.cs",
               "RelativeToolTip": "LinqAndExtensions\\Program.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAApwFYAAAAAAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswGYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T08:18:29.312Z",
               "EditorCaption": ""

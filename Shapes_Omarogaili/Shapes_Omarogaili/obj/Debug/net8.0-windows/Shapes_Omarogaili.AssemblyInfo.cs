@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shapes_Omarogaili")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b252ed49469cc3fd86f48c72863b0d7c22f20b20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cafe89c254d4c9ec2122c2fb62d790bd09367788")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shapes_Omarogaili")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shapes_Omarogaili")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
